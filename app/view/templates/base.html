@@ -1,1 +1,27 @@
-<p>hi!!!!</p>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Website Yippie</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/styles/styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style type="text/tailwindcss">
+            @custom-variant dark (&:where(.dark, .dark *));
+        </style>
+        <script>
+            window.in_dark_mode = true;
+            window.toggleDarkMode = () => {
+                if (window.in_dark_mode) {
+                    document.body.classList.remove("dark")
+                } else {
+                    document.body.classList.add("dark")
+                }
+                window.in_dark_mode = !window.in_dark_mode;
+            }
+        </script>
+    </head>
+    <body class="m-4 dark:bg-gray-800 dark:text-gray-200 dark">
+        {% block content %} {% endblock %}
+    </body>
+</html>

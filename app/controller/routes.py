@@ -9,4 +9,8 @@ routes_blueprint.template_folder = Config.TEMPLATE_FOLDER
 def index():
     return render_template('base.html', title='Home')
 
+@routes_blueprint.route('/main')
+def mainpage():
+    return render_template('mainpage.html', title='Mainpage')
+
 
