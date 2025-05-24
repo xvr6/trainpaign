@@ -6,3 +6,5 @@ End of the Line
 
 if ur on windows :vomit:
 2) ```./.venv\Scripts\activate.ps1```
+
+3) ``` pip install -r .\requirements.txt```
