@@ -135,6 +135,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+flash_session
 
 # Spyder project settings
 .spyderproject
