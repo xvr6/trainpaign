@@ -8,3 +8,11 @@ if ur on windows :vomit:
 2) ```./.venv\Scripts\activate.ps1```
 
 3) ```pip install -r .\requirements.txt```
+
+
+hostname  /Route  /<ph>
+github.com/WooWare/when2goat-py
+
+
+/tree/main
+/view/event/<eid>
